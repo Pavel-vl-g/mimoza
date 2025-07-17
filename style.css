@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+}
+
+.b {
+    border: 1px solid black;
+    padding: 0;
+    margin: 5;
+}
+
+/* p {
+    color: blue;
+} */
+
+li {
+    color: red;
+}
+
+a {
+    color: green;
+}
+
+.telegram {
+    color: blueviolet;
+}
+
+#whatsapp {
+    color: black;
+}
+
+/* селектор по атрибуту */
+/* [class] {
+    color: chocolate;
+}
+
+[class="1"] {
+    color: violet;
+} */
+
+svg {
+    padding: 0;
+    scale: 0.1;
+    margin: 0;
+}
