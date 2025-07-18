@@ -216,3 +216,16 @@ svg * {
 body {
     font-family: 'Roboto';
 }
+
+.box {
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+  background-image: url('./photos/logo.jpg');
+  /* background-repeat: repeat; */
+  /* background-repeat: space; заполняет все пространство, заполняя промежутки цветом фона между изображениями */
+  /* background-repeat: round; заполняет все пространство, не заполняя промежутки между изображениями */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
