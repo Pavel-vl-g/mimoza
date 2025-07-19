@@ -206,26 +206,45 @@ svg * {
 }
 
 @font-face {
-    font-family: 'Roboto', Arial, monospace;
+    font-family: 'Roboto';
     src: url("./fonts/Roboto-Regular.woff2") format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
-
 body {
     font-family: 'Roboto';
 }
 
-.box {
+.box-1 {
   width: 600px;
-  height: 600px;
-  background-color: aqua;
-  background-image: url('./photos/logo.jpg');
+  text-align: center;
+  border: 150px solid black;
+  /* outline: 2px solid green; */
+  border-radius: 24% 76% 30% 70% / 64% 38% 62% 36%;
+}
+
+.box-2 {
+  width: 600px;
+  text-align: center;
+}
+
+.list {
+  width: 600px;
+  text-align: center;
+  list-style: none;
+}
+
+.box {
+  /* width: 600px; */
+  background-color: rgb(249, 175, 1);
+  /* background-image: url('./photos/logo.jpg'); */
   /* background-repeat: repeat; */
   /* background-repeat: space; заполняет все пространство, заполняя промежутки цветом фона между изображениями */
   /* background-repeat: round; заполняет все пространство, не заполняя промежутки между изображениями */
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  /* background-position: center; */
+  /* background-attachment: fixed; */
 }
+
+/* Logo RGB 249 176 1 */
