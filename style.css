@@ -216,25 +216,6 @@ body {
     font-family: 'Roboto';
 }
 
-.box-1 {
-  width: 600px;
-  text-align: center;
-  border: 150px solid black;
-  /* outline: 2px solid green; */
-  border-radius: 24% 76% 30% 70% / 64% 38% 62% 36%;
-}
-
-.box-2 {
-  width: 600px;
-  text-align: center;
-}
-
-.list {
-  width: 600px;
-  text-align: center;
-  list-style: none;
-}
-
 .box {
   /* width: 600px; */
   background-color: rgb(249, 175, 1);
@@ -246,5 +227,40 @@ body {
   /* background-position: center; */
   /* background-attachment: fixed; */
 }
+
+.box-1 {
+  max-width: 600px;
+  /* text-align: center; */
+  border: 150px solid black;
+  /* outline: 2px solid green; */
+  border-radius: 24% 76% 30% 70% / 64% 38% 62% 36%;
+  margin: 1vw 1vw;
+  /* position: relative; */
+  /* top: 50px; для position: relative;*/
+  /* left: 200px; для position: relative;*/
+}
+
+.box-2 {
+  width: 90vw;
+  text-align: center;
+}
+
+.box-3 {
+  width: 90vw;
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  background-color:brown;
+  height: 100px;
+}
+
+.list {
+  width: 90vw;
+  text-align: center;
+  list-style: none;
+  font-size: 1em;
+}
+
+
 
 /* Logo RGB 249 176 1 */
