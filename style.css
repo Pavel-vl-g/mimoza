@@ -228,25 +228,8 @@ body {
   /* background-attachment: fixed; */
 }
 
-.box-1 {
-  max-width: 600px;
-  /* text-align: center; */
-  border: 150px solid black;
-  /* outline: 2px solid green; */
-  border-radius: 24% 76% 30% 70% / 64% 38% 62% 36%;
-  margin: 1vw 1vw;
-  /* position: relative; */
-  /* top: 50px; для position: relative;*/
-  /* left: 200px; для position: relative;*/
-}
-
-.box-2 {
-  width: 90vw;
-  text-align: center;
-}
-
-.box-3 {
-  width: 90vw;
+.header {
+  max-width:none
   text-align: center;
   position: sticky;
   top: 0px;
@@ -254,13 +237,21 @@ body {
   height: 100px;
 }
 
-.list {
-  width: 90vw;
-  text-align: center;
-  list-style: none;
-  font-size: 1em;
+.flex-container {
+  display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
 
-
-/* Logo RGB 249 176 1 */
+.logo {
+  max-width: 50vw;
+  /* border: 1px solid black; */
+  /* outline: 2px solid green; */
+  /* border-radius: 24% 76% 30% 70% / 64% 38% 62% 36%; */
+  /* margin: 1vw 1vw; */
+  /* position: relative; */
+  /* top: 50px; для position: relative; */
+  /* left: 200px; для position: relative; */
+}
