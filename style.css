@@ -230,7 +230,7 @@ body {
 
 .header {
   max-width:none
-  text-align: center;
+  /* text-align: center; */
   position: sticky;
   top: 0px;
   background-color:brown;
@@ -245,9 +245,34 @@ body {
   flex-wrap: wrap;
 }
 
+.flex-element {
+   /* flex-shrink: 0; */
+  /* flex-grow: 1; */
+  /* обобщенное свойство flex: 0 1 auto, где 0 flex-grow, 1 flex-shrink, flex-basis auto */
+  flex: 0 0 50%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-flex-start {
+  align-items: center;
+}
+
+.column-gap {
+  column-gap: 5px;
+}
+
+/* .gap {
+  gap: 5px 5px;
+} */
+
 .logo {
-  max-width: 50vw;
-  /* border: 1px solid black; */
+  /* max-width: 50vw; */
+  /* max-height: 600px; */
+  /* max-width: 600px; */
+  border: 1px solid black;
   /* outline: 2px solid green; */
   /* border-radius: 24% 76% 30% 70% / 64% 38% 62% 36%; */
   /* margin: 1vw 1vw; */
