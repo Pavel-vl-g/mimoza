@@ -260,9 +260,9 @@ body {
   align-items: center;
 }
 
-.column-gap {
+/* .column-gap {
   column-gap: 5px;
-}
+} */
 
 /* .gap {
   gap: 5px 5px;
@@ -275,7 +275,7 @@ body {
   border: 1px solid black;
   /* outline: 2px solid green; */
   /* border-radius: 24% 76% 30% 70% / 64% 38% 62% 36%; */
-  /* margin: 1vw 1vw; */
+  margin: 1vw 1vw;
   /* position: relative; */
   /* top: 50px; для position: relative; */
   /* left: 200px; для position: relative; */
