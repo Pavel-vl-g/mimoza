@@ -228,13 +228,16 @@ body {
   /* background-attachment: fixed; */
 }
 
+@media (max-width: 500px) {
+  .flex-container {font-size: 14px;}
+}
+
 .header {
-  max-width:none
-  /* text-align: center; */
+  /* max-width:none; */
   position: sticky;
   top: 0px;
   background-color:brown;
-  height: 100px;
+  height: 40px;
 }
 
 .flex-container {
@@ -251,7 +254,18 @@ body {
   /* обобщенное свойство flex: 0 1 auto, где 0 flex-grow, 1 flex-shrink, flex-basis auto */
   /* flex: 0 0 50%; */
   flex-grow: 1;
-  margin: 5px;
+  margin: 10px;
+  /* width: 50%; */
+  max-width: 300px;
+}
+
+.flex-element-header {
+   /* flex-shrink: 0; */
+  /* flex-grow: 1; */
+  /* обобщенное свойство flex: 0 1 auto, где 0 flex-grow, 1 flex-shrink, flex-basis auto */
+  /* flex: 0 0 50%; */
+  /* width: 50%; */
+  max-width: 300px;
 }
 
 .justify-content-center {
@@ -273,8 +287,9 @@ body {
 .logo {
   /* max-width: 50vw; */
   /* max-height: 600px; */
-  max-width: 800px;
-  border: 5px solid black;
+  min-width: 200px;
+  max-width: 400px;
+  /* border: 25px solid black; */
   /* outline: 2px solid green; */
   /* border-radius: 24% 76% 30% 70% / 64% 38% 62% 36%; */
   /* margin: 5px; */
@@ -282,31 +297,31 @@ body {
   /* top: 50px; для position: relative; */
   /* left: 200px; для position: relative; */
 }
-
+/* 
 .red-marker::marker {
   color: red;
 }
 
 .blue-marker::marker {
   color: blue;
-}
-
+} */
+/* 
 .green-marker::marker {
   color: green;
 }
 
 .white-marker::marker {
   color: white;
-}
-
+} */
+/* 
 .rebeccapurple-marker::marker {
   color: rebeccapurple;
-}
-
+} */
+/* 
 .content::marker {
   content: "-:)";
-}
+} */
 
-li:nth-child(even) {
+/* li:nth-child(even) {
   color: green;
-}
+} */
